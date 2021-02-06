@@ -2,6 +2,8 @@
 
 html{
     color: black;
+    overflow-y: hidden;
+    /* overflow-x: hidden; */
 }
 
 
@@ -125,3 +127,33 @@ html{
 /* ------- FOOTER ----------*/
 /* -------------------------*/
 
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    background-color: #f2f2f2;
+    /* height: 5vh; */
+}
+
+footer .container1{
+    float: left;
+    font-size: 16px;
+    margin: 12px;
+}
+
+footer .container2{
+    float: right;
+    font-size: 16px;
+    margin: 12px;
+    margin-right: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color:rgb(83, 71, 71);
+    margin-left: 20px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
