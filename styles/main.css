@@ -98,12 +98,30 @@ html{
     padding-right: 14px;
     top: 0px;
     left: 68.5%;
+    cursor: pointer;
 }
 
 .search-section input[type=text]:hover, .search-section input[type=text]:focus{
     box-shadow: 3px 4px 10px #e0e0e0, -2px -3px 10px #e0e0e0;
 }
 
+.search-section button{
+    padding: 8px 15px;
+    margin: 0 10px;
+    background-color:whitesmoke;
+    border: 0.5px solid whitesmoke;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    
+}
+
+.search-section button:hover{
+    box-shadow: 1px 0px 2px #e0e0e0;
+    border: 0.5px solid rgb(212, 203, 203)
+}
+
 /* -------------------------*/
 /* ------- FOOTER ----------*/
 /* -------------------------*/
+
