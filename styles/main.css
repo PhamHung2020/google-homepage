@@ -1,0 +1,109 @@
+@import "./reset.css";
+
+html{
+    color: black;
+}
+
+
+/* -------------------------*/
+/*-------- NAV BAR ---------*/
+/* -------------------------*/
+
+.navbar{
+   font-size: 90%;
+}
+
+.navbar ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-right: 20px;
+    align-items: center;
+}
+
+.navbar li a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    margin: 30px 20px 0 0;
+    
+}
+
+.navbar img{
+    height: 30px;
+    opacity: 0.5;
+}
+
+.navbar #sign-in-btn{
+    background-color: #4285f4;
+    padding: 8px 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 900;
+}
+
+.navbar li a:hover{
+    text-decoration:underline;
+}
+
+.navbar img:hover{
+    opacity: 1;
+}
+
+/* -------------------------*/
+/* ---- SEARCH SECTION -----*/
+/* -------------------------*/
+
+.logo{
+    text-align: center;
+    margin-top: 15vh;
+    margin-bottom: 30px;
+}
+
+
+.search-section{
+    text-align: center;
+}
+
+.search-bar{
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.search-section input[type=text]{
+    width: 36%;
+    margin: 0 32%;
+    font-size: 20px;
+    padding: 10px 10px 10px 3%;
+    outline: none;
+    border: 0.5px rgba(160, 154, 154, 0.5) solid;
+    border-radius: 20px;
+}
+
+.search-bar img{
+    position: absolute;
+    /* background-color: red; */
+}
+
+.search-bar #search-logo{
+    height: 40%;
+    padding: 14px;
+    top: 0px;
+    left: 32%;
+}
+
+.search-bar #mic-logo{
+    height: 55%;
+    padding: 10px;
+    padding-right: 14px;
+    top: 0px;
+    left: 68.5%;
+}
+
+.search-section input[type=text]:hover, .search-section input[type=text]:focus{
+    box-shadow: 3px 4px 10px #e0e0e0, -2px -3px 10px #e0e0e0;
+}
+
+/* -------------------------*/
+/* ------- FOOTER ----------*/
+/* -------------------------*/
